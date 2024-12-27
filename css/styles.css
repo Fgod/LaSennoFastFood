@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #900C3F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.product {
+    background-color: rgb(255, 198, 51);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 18%;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+.products .product img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.products .product img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.product p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 15px;
+}
+.product button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product button:hover {
+    background-color: #218838;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #333;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.cart ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart ul li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cart ul li button:hover {
+    background-color: #b02a37;
+}
+
+.cart p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.cart-controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.cart-controls button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.cart-controls button:hover {
+    background-color: #0056b3;
+}
